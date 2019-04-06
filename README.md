@@ -1,2 +1,36 @@
-# T7-logica-js1
-Turma 7 | Front-end | 2019 | Semana 5 | Lógica e Javascript I
+# Semana 5 - Lógica de programação e Javascript 1
+
+## O objetivo dessa semana é apresentar o raciocínio lógico por trás da programação, com uma introdução à sintaxe javascript.
+
+### Slides (sem respostas):
+https://docs.google.com/presentation/
+
+### Slides (com respostas):
+https://docs.google.com/presentation/
+
+
+#### Segunda-feira (08/04)
+* Introdução
+* Desmistificando o conceito de lógica
+* Video: 
+* O que é um algoritmo
+* Pseudocódigo
+    * Atividade: dicionário
+* Fluxograma
+    * Atividade: primeiros níveis do jogo Human Resource Machine
+
+#### Terça-feira (09/04)
+* Introdução a sintaxe Javascript
+* Variáveis e tipos de dados
+   
+#### Quarta-feira (10/04)
+* Operadores aritméticos e relacionais
+* Funções
+* Operadores lógicos
+* Condições
+
+#### Quinta-feira (11/04)
+* Exercícios
+
+#### Sexta-feira (12/04)
+* Revisão 
