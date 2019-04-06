@@ -3,7 +3,7 @@
 ## O objetivo dessa semana é apresentar o raciocínio lógico por trás da programação, com uma introdução à sintaxe javascript.
 
 ### Slides (sem respostas):
-https://docs.google.com/presentation/
+https://docs.google.com/presentation/d/1_bXTYXHo4i6h2lRCaUUZ9_1fkOGR6TFWGKaMNWbRV-M/edit?usp=sharing
 
 ### Slides (com respostas):
 https://docs.google.com/presentation/
