@@ -1,0 +1,25 @@
+body {
+    color: #2e2e2e;
+    font-size: 21px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.unica {
+    display: block;
+}
+
+p {
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+img {
+    width: 400px;
+}
