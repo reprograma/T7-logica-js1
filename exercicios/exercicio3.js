@@ -1,5 +1,5 @@
 // Declare uma variável que receba um objeto vazio.
-
+var objeto = {}
 /*
 Declare uma variável `pessoa`, que receba as suas informações pessoais, seguindo os tipos definidos abaixo:
 - `nome` - String
@@ -10,6 +10,11 @@ Declare uma variável `pessoa`, que receba as suas informações pessoais, segui
 - `andando` - Boolean - recebe "falso" por padrão
 - `caminhouQuantosMetros` - Number - recebe "zero" por padrão
 */
+var pessoa = {
+    nome: "Débora",
+    andando: false,
+    caminhou: 0
+}
 
 /*
 Adicione um método ao objeto `pessoa` chamado `fazerAniversario`. O método deve
@@ -27,7 +32,10 @@ valor dessa propriedade a quantidade passada por parâmetro;
 - Ele deverá modificar o valor da propriedade `andando` para o valor
 booleano que representa "verdadeiro";
 */
-
+pessoa.andar = function(metros){
+    pessoa.caminhou = pessoa.caminhou + metros;
+    pessoa.andando = true;
+}
 /*
 Adicione um método ao objeto `pessoa` chamado `parar`, que irá modificar o valor
 da propriedade `andando` para o valor booleano que representa "falso".

@@ -23,7 +23,7 @@ function nome (x){
 // Invoque a função criada acima.
 ?
 
-// Qual o retorno da função? (Use comentários de bloco).
+// Qual o retorno da função?
 ?
 
 /*
@@ -33,7 +33,15 @@ Crie uma função com as seguintes características:
     Preencha todos os valores corretamente!
 3. O retorno da função deve ser a multiplicação dos 3 argumentos, somando "2" ao resultado da multiplicação.
 */
-?
+function minhaFuncao(argumento1, argumento2, argumento3){
+    if(!argumento1 || !argumento2 || !argumento3){
+        return "Preencha todos os valores corretamente"
+    }else{
+        var multiplicacao = argumento1 + argumento2 + argumento3;
+        var resultadoFinal = multiplicacao + 2
+        return resultadoFinal
+    }
+}
 
 // Invoque a função criada acima, passando só dois números como argumento.
 ?
@@ -56,6 +64,23 @@ Crie uma função com as seguintes características:
 5. Se nenhum argumento for passado, retorne o valor booleano "false".
 6. E ainda, se nenhuma das condições acima forem atendidas, retorne "null".
 */
-?
+function minhaFuncao(a,b,c){
+    if(!b && !c){
+        return a
+    }
+    else if(!c){
+        return a + b
+    }
+    else if(a && b && c){
+        var soma = a + b;
+        return soma / c;
+    }
+    else if(!a && !b && !c){
+        return false;
+    }
+    else{
+        return null
+    }
+}
 
 // Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um comentário de linha ao lado da função com o resultado de cada invocação.
