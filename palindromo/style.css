@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(10, 10, 10);
+    text-align: center;
+}
+  
+#titulo {
+    text-decoration: none;
+    color: rgb(250, 255, 10);
+    font-family: 'Bungee Shade';
+    font-size: 100px;
+    text-align: center;
+}
+  
+#input{
+    font-size: 100px;
+    text-align: center;
+}
+  
+#input{
+    background-color: #eee;
+    border: none;
+    font-family: sans-serif;
+    color: #000;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    margin: 80px
+}
+
+
+#resposta {
+    color: white;
+    padding: 0px;
+    display: block;
+    margin-left: auto;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Courgette', cursive;
+}
+  

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <title>Calculador de IMC Empoderado</title>
+</head>
+<body>
+    <div class="content">
+        <div id="table" class="col">
+            <table>
+                <thead>
+                    <tr>
+                        <th>IMC</th>
+                        <th>Classificação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="linha1"><td>Abaixo de 18</td><td>Uma deusa! 🎵</td></tr>
+                    <tr class="linha2"><td>Entre 18 e 24</td><td>Uma louca! 🎵</td></tr>
+                    <tr class="linha3"><td>Entre 25 e 29</td><td>Uma feiticeira! 🎵</td></tr>
+                    <tr class="linha4"><td>Entre 30 e 40</td><td>Ela é demais! 🎵</td></tr>
+                    <tr class="linha5"><td>Acima de 40</td><td>Meu Deus, ela é demais! 🎵</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="calc" class="col">
+            <label for="">Peso (em kg)</label>
+            <input id="peso" type="text">
+            <label for="">Altura</label>
+            <input id="altura" type="text">
+            <button onclick="calculoIMC()">Calcular</button>
+        </div>
+        <div class="col">
+            <p>Seu IMC é:</p>
+            <p id="resposta"></p>
+            <div id="lugarGif"></div>
+        </div>
+    </div>
+</body>
+</html>
